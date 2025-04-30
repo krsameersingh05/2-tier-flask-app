@@ -6,7 +6,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      MYSQL_HOST: mysql
+      MYSQL_HOST: mysqldb
       MYSQL_USER: root #${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DB: ${MYSQL_DATABASE}
